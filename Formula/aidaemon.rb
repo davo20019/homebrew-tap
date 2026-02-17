@@ -7,16 +7,16 @@ class Aidaemon < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/davo20019/aidaemon/releases/download/v0.9.0/aidaemon-macos-aarch64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "f4d824b68e36dce04d90650bdb74a097c05392fb757c853d3640156ad83cb1bc"
     else
       url "https://github.com/davo20019/aidaemon/releases/download/v0.9.0/aidaemon-macos-x86_64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "05da65a14ea17f040519f919640a9f283d2b403d550367cc27b9b71208dfea2b"
     end
   end
 
   on_linux do
     url "https://github.com/davo20019/aidaemon/releases/download/v0.9.0/aidaemon-linux-x86_64.tar.gz"
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    sha256 "4daebf82f287c1d8448aea343d884e44bc44adaf0d605163a0b6162ab82a4ef7"
   end
 
   def install
