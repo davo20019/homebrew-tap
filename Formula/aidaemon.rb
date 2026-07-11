@@ -2,21 +2,21 @@ class Aidaemon < Formula
   desc "Personal AI agent daemon with tool use, MCP integration, and persistent memory"
   homepage "https://aidaemon.ai/"
   license "MIT"
-  version "0.11.20"
+  version "0.11.21"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/davo20019/aidaemon/releases/download/v0.11.20/aidaemon-macos-aarch64.tar.gz"
-      sha256 "3a5e3e38ee25663fc2284410614e380764abec4778aa296b416b7ec9ab11bd99"
+      url "https://github.com/davo20019/aidaemon/releases/download/v0.11.21/aidaemon-macos-aarch64.tar.gz"
+      sha256 "095cec4c01b08029d0704bf78f49de027c3322327c3e1f3e2aba07b5c37cb79b"
     else
-      url "https://github.com/davo20019/aidaemon/releases/download/v0.11.20/aidaemon-macos-x86_64.tar.gz"
-      sha256 "ed2ce2dc5beb55ec414db9bac5bbe6c4f3adf51f53b3a71d8f81fdc579ae0749"
+      url "https://github.com/davo20019/aidaemon/releases/download/v0.11.21/aidaemon-macos-x86_64.tar.gz"
+      sha256 "f1867b5bac11a96972810b0ef2909059ed53bdfbed12b1b47484b9c6376de7e8"
     end
   end
 
   on_linux do
-    url "https://github.com/davo20019/aidaemon/releases/download/v0.11.20/aidaemon-linux-x86_64.tar.gz"
-    sha256 "4495c2cb30a58d3c782f5826f466fbc334a33f3215758c0375af1727e7b62066"
+    url "https://github.com/davo20019/aidaemon/releases/download/v0.11.21/aidaemon-linux-x86_64.tar.gz"
+    sha256 "df9c42b1478d5c88283a6434db85484317cc3dc23a66af6ed0661245ac5caa7e"
   end
 
   def install
